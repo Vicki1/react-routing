@@ -14,7 +14,7 @@ function Details( { swag, history, addToCart } ) {
   return (
     <div id="Details__container">
       <Link id='Details_storeLink' to="/">
-      <p> { '<' } Back to store </p>
+        <p> { '<' } Back to store </p>
       </Link >
       <img id="Details__img" src={ swag.img } alt="Product" width="400px" />
       <p id="Details__title"> { swag.title } </p>
